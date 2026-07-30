@@ -1,21 +1,48 @@
 aid: kuaidian-reading
 name: Kuaidian Reading
-description: 'Kuaidian Reading is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kuaidian Reading (快点阅读) is a Chinese mobile reading community operated by Beijing
+  Tiantong Interactive Technology Co., Ltd. (Sky Platanus Interactive, 天桐互动), positioning itself
+  as China''s first dialogue-based reading app. Instead of long-form web fiction, the platform
+  publishes chat-style novels rendered as character dialogue, which it argues gives clearer
+  characterization, tighter pacing and stronger reader immersion. Content is user-generated at
+  scale — the company claims over 20,000 new novels uploaded daily — and distributed through a
+  decentralized recommendation algorithm rather than editorial merchandising. Social mechanics
+  include barrage-style inline comments, author tipping, and a co-writing mode that lowers the
+  barrier for first-time writers. Authors work in a separate creation console at
+  editor.kuaidianyuedu.com. The company was surfaced as a portfolio company of DCM Ventures.
+  As of this enrichment pass Kuaidian Reading publishes no public API, SDK, developer portal, or
+  /.well-known/ discovery surface; it is a consumer-app company with no developer-facing program.'
 url: https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://asset.hecdn.com/crucio/image/applogo-1024.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcm-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Reading
+- Publishing
+- Content
+- Mobile Apps
+- Social
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.kuaidianyuedu.com/
+- type: About
+  url: https://www.kuaidianyuedu.com/about
+- type: PrivacyPolicy
+  url: https://www.kuaidianyuedu.com/legal/privacy
+- type: Contact
+  url: mailto:jubao@skyplatanus.com
+- type: CreatorPortal
+  url: https://editor.kuaidianyuedu.com/
+- type: ParentCompany
+  url: https://www.skyplatanus.com/
+- type: iOSApp
+  url: https://itunes.apple.com/cn/app/id1228112060
+- type: AndroidApp
+  url: https://asset.hecdn.com/apk/crucio/53502/kuaidian-53502-release-1.apk
+- type: DomainSecurity
+  url: security/kuaidian-reading-domain-security.yml
+- type: LLMsTxt
+  url: llms/kuaidian-reading-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
