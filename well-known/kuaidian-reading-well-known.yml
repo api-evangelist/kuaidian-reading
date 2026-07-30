@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of https://www.kuaidianyuedu.com
+host: https://www.kuaidianyuedu.com
+notes: >-
+  No /.well-known/ discovery surface is published. Every RFC-defined discovery
+  document probed returned 404, and no api./developer./open. subdomain resolves
+  (DNS failure, curl exit 000). Recorded as a negative result, not an omission.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+subdomains_probed:
+- host: api.kuaidianyuedu.com
+  status: unresolved
+- host: developer.kuaidianyuedu.com
+  status: unresolved
+- host: open.kuaidianyuedu.com
+  status: unresolved
+- host: editor.kuaidianyuedu.com
+  status: 200
+  note: creator/authoring console for writers, not a developer portal

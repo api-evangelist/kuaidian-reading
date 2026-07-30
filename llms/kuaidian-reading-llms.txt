@@ -1,0 +1,35 @@
+# Kuaidian Reading (快点阅读)
+
+> Kuaidian Reading is a Chinese mobile dialogue-fiction reading community operated by Beijing Tiantong Interactive Technology Co., Ltd. (Sky Platanus Interactive, 天桐互动). The app publishes chat-style, dialogue-format novels rather than long-form web fiction, distributed by a decentralized recommendation algorithm, with barrage comments, reader tipping and a co-writing mode for new authors. It is a consumer product; as of this profile it publishes no public API, SDK, or developer program.
+
+## Status
+
+- No public API: no `api.`, `developer.`, or `open.` subdomain resolves; no OpenAPI, AsyncAPI, GraphQL, or webhook surface is documented.
+- No `/.well-known/` discovery documents (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json all 404).
+- No published vulnerability-disclosure program or trust center.
+- Only the consumer web/app surface and legal pages are public.
+
+## Company
+
+- Website: https://www.kuaidianyuedu.com/
+- Parent company: https://www.skyplatanus.com/
+- Creator console (authors, not developers): https://editor.kuaidianyuedu.com/
+- About: https://www.kuaidianyuedu.com/about
+
+## Apps
+
+- iOS: https://itunes.apple.com/cn/app/id1228112060
+- Android APK: https://asset.hecdn.com/apk/crucio/53502/kuaidian-53502-release-1.apk
+
+## Legal
+
+- Privacy policy: https://www.kuaidianyuedu.com/legal/privacy
+- System permissions: https://www.kuaidianyuedu.com/legal/system_authority
+- Content safety initiative: https://www.kuaidianyuedu.com/guard/green
+- Abuse/report contact: jubao@skyplatanus.com
+
+## API Evangelist artifacts
+
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/apis.yml
+- Domain security probe: https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/security/kuaidian-reading-domain-security.yml
+- Well-known probe: https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/well-known/kuaidian-reading-well-known.yml
