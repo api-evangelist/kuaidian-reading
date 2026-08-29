@@ -13,6 +13,17 @@ description: 'Kuaidian Reading (快点阅读) is a Chinese mobile reading commun
   As of this enrichment pass Kuaidian Reading publishes no public API, SDK, developer portal, or
   /.well-known/ discovery surface; it is a consumer-app company with no developer-facing program.'
 url: https://raw.githubusercontent.com/api-evangelist/kuaidian-reading/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
